@@ -9,6 +9,7 @@ public class Book {
         String authorNameSholohov = " Михаил Шолохов ";
         int publishingYearSholohov = 1957;
         System.out.println(authorNameSholohov);
+
     }
 }
 
