@@ -9,6 +9,7 @@ public class Author {
         this.family = family;
     }
 
+
     public String getName() {
         return this.name;
     }
