@@ -10,14 +10,16 @@ public class Main {
         System.out.println("Автор - " + tarasBulba.getAuthor());
         System.out.println("Год издания - " + tarasBulba.getPublishedYear());
         System.out.println("Книга - " + tarasBulba.getBookName());
-        tarasBulba.setPublishedYear(2022);
-        System.out.println(" Год переиздания  - " + tarasBulba.getPublishedYear());
         System.out.println("Автор - " + sholohov.getName() + sholohov.getFamely());
         System.out.println("Автор - " + sudbaCheloveka.getAuthor());
         System.out.println("Год издания - " + sudbaCheloveka.getPublishedYear());
         System.out.println("Книга - " + sudbaCheloveka.getBookName());
+        System.out.println(" Сравнение авторов " + gogol.equals(sholohov));
+        System.out.println(" Хешкод - " + gogol.hashCode());
+        System.out.println(" Хешкод - " + sholohov.hashCode());
         sudbaCheloveka.setPublishedYear(2022);
         System.out.println(" Год переиздания  - " + sudbaCheloveka.getPublishedYear());
-
+        tarasBulba.setPublishedYear(2022);
+        System.out.println(" Год переиздания  - " + tarasBulba.getPublishedYear());
     }
 }
