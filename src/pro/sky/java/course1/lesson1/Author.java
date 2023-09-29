@@ -22,7 +22,7 @@ public class Author {
     @Override
 
     public String toString() {
-        return name + " " + famely;
+        return name + "  " + famely;
     }
 
     @Override
