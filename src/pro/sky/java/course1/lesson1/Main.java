@@ -18,8 +18,8 @@ public class Main {
         System.out.println(" Хешкод - " + gogol.hashCode());
         System.out.println(" Хешкод - " + sholohov.hashCode());
         sudbaCheloveka.setPublishedYear(2022);
-        System.out.println(" Год переиздания  - " + sudbaCheloveka.getPublishedYear());
+        System.out.println(" Год переиздания - " + sudbaCheloveka.getPublishedYear());
         tarasBulba.setPublishedYear(2022);
-        System.out.println(" Год переиздания  - " + tarasBulba.getPublishedYear());
+        System.out.println(" Год переиздания - " + tarasBulba.getPublishedYear());
     }
 }
